@@ -1,0 +1,141 @@
+h1{
+    margin: 0;
+    padding: 0;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tomat__title{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+.title__main{
+    font-size: 72px;
+    line-height: calc((80/72)*100%);
+    color: #161515;
+}
+.title__decription{
+    display: flex;
+    gap: 22px;
+}
+.info__main{
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+    width: 60%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.firts__year{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.first__year__description{
+    color: #161515;
+}
+.firts__client{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.first__client__description{
+    color: #161515;
+}
+.second__co-authors{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.second__co-authors__description{
+    color: #161515;
+}
+.info__main__third{
+    width: 60%;
+}
+.info__main__description{
+    color: #161515;
+}
+.info__main__description1400{
+    display: none;
+}
+.first__notsecond{
+    flex-direction: row;
+   
+    gap: 50px;
+}
+.firts__year__only{
+    gap: 20px;
+}
+@media (max-width:1600px) {
+    .title__main{
+        font-size: 52px;
+    }
+}
+@media (max-width:1100px) {
+    .info__main__third{
+        display: none;
+    }
+    .info__main__description1400{
+        display: block;
+        margin-top: 15px;
+        color: #161515;
+    }
+    .info__main{
+        width: 40%;
+        gap: 10px;
+    }
+}
+@media (max-width:900px) {
+    .title__main{
+        font-size: 42px;
+    }
+    .info{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .first{
+        flex-direction: row;
+        gap: 50px;
+    }
+    .info__main{
+        width: 100%;
+        justify-content: start;
+        gap: 50px;
+    }
+    .info__main__description1400{
+        margin-top: 40px;
+    }
+   
+}
+@media (max-width:500px) {
+    .title__main{
+        font-size: 26px;
+    }
+    .info__main{
+        flex-direction: column;
+        gap:20px
+    }
+    .info{
+        gap: 20px;
+    }
+    .info__main__description1400{
+        margin-top: 20px;
+    }
+    .first{
+        gap: 70px;
+    }
+}
+.wrapper__main{
+    margin-top: 50px;
+}
+.main__img{
+    margin-top: -7px;
+    width: 100%;
+}

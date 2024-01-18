@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <!--menu-->
+    <div id="menu" class="header__menu">
+        <div onclick="closeMenu()" id="menu__close" class="menu__close">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="#fef8ed">
+                <path d="M22.6066 21.3934C22.2161 21.0029 21.5829 21.0029 21.1924 21.3934C20.8019 21.7839 20.8019 22.4171 21.1924 22.8076L22.6066 21.3934ZM40.9914 42.6066C41.3819 42.9971 42.0151 42.9971 42.4056 42.6066C42.7961 42.2161 42.7961 41.5829 42.4056 41.1924L40.9914 42.6066ZM21.1924 41.1924C20.8019 41.5829 20.8019 42.2161 21.1924 42.6066C21.5829 42.9971 22.2161 42.9971 22.6066 42.6066L21.1924 41.1924ZM42.4056 22.8076C42.7961 22.4171 42.7961 21.7839 42.4056 21.3934C42.0151 21.0029 41.3819 21.0029 40.9914 21.3934L42.4056 22.8076ZM21.1924 22.8076L40.9914 42.6066L42.4056 41.1924L22.6066 21.3934L21.1924 22.8076ZM22.6066 42.6066L42.4056 22.8076L40.9914 21.3934L21.1924 41.1924L22.6066 42.6066Z" fill="white"/>
+            </svg>
+        </div>
+        <div class="menu__top">
+            <img onclick="mainClick()" src="img/Frame_25.svg" alt="" class="menu__logo">
+            <ul class="menu__navigation__list menu__list">
+                <li class="menu__list__item">
+                    <a href="#project" class="menu__list__link">Проекты</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="https://t.me/tehnichka_design" target="_blank" class="menu__list__link">Техничка</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#footer" class="menu__list__link">Обо мне </a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#article" class="menu__list__link">Статьи и заметки</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu__bottom">
+            <a href="https://t.me/abramovdesiqn" target="_blank"  class="menu__lsit__button">Обсудить проект</a>
+            <span class="menu__text">Сайт-портфолио,Ильи Абрамова,<br>коммуникационного дизайнера</span>
+        </div>
+    </div>
+
+
+
+    <div id="wrapper" class="wrapper">
+        <header class="wrapper__heaeder header">
+            <div class="header__main">
+                <img onclick="mainClick()"  class="header__logo1920" src="img/Logo.svg" alt="logo">
+                <img onclick="mainClick()" class="header__logo640" src="img/Logo640.svg" alt="logo">
+                <nav class="header__navigation naviation">
+                    <ul class="navigation__list list">
+                        <li class="list__item">
+                            <a href="#project" class="list__link">Проекты</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="https://t.me/tehnichka_design" target="_blank" class="list__link">Техничка</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#footer" class="list__link">Обо мне</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#article" class="list__link">Статьи и заметки</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="https://t.me/abramovdesiqn" target="_blank" class="list__link list__button">Обсудить проект</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="menu__button" onclick="show()" class="menu__button">Меню</button>
+            </div>
+        </header>
+
+
+        
+
+
+
+        <!--Title-->
+
+        <div class="wrapper__title title">
+            <div class="title__hiadng">
+                <h1 class="title__hiading">
+                Привет! Меня зовут Илья. <br class="title__hiading960">Я коммуникационный дизайнер.<br class="title__hiading360"><span class="title__hiading2">Доношу ценности графикой, анимацией, вёрсткой</span>
+                </h1>
+            </div>
+            
+
+            <div class="title__content">
+                <img class="title__content__img" src="img/Photo.png" alt="">
+                <div class="title__content__info title__info">
+                    <div class="title__info__links">
+                        <span class="title__text">Я в ссылках</span>
+                        <a href="https://t.me/abramovdesiqn" target="_blank" class="title__link">Telegram</a>
+                        <a href="https://dprofile.ru/ilyaabramov" target="_blank" class="title__link">DProfile</a>
+                    </div>
+                    <div class="title__info__contacts">
+                        <span class="title__text">Контакты</span>
+                        <a href="tel:+76874361712" class="title__link__tel">(T)  +7 987 436 17 12</a>
+                        <a href="ilyaabramov29@gmail.com" class="title__link">(M)  ilyaabramov29@gmail.com</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <!--Article-->
+
+        <div id="article" class="wrapper__article article">
+            <div class="article__item_main">
+                <h2 class="hiadin2 article__hiading">Статьи и заметки</h2>
+                <span class="article__text">О дизайне, технологиях и саморазвитии.<br> Что-то моего авторства, что-то переведено</span>
+            </div>
+            <div class="article__item">
+                <img src="img/Cover - TOMAT Agency.png" alt="" class="article__img">
+                <h3 class="hiading3 article__title">Копируй: как работает дизайн</h3>
+                <span class="article__text">Перевод статьи Мэтью Штрома о том, насколько важно копирование в дизайне. Мэтью приводит интересные примеры, доказывающие этот факт: терракотовых солдат, Ван Гога, игры 90-х и так далее.</span>
+                <div class="article__lincks">
+                    <div class="article__hash">
+                        <a href="#" class="article__hash__link">#дизайн</a>
+                        <a href="#" class="article__hash__link">#дизайн</a>
+                        <a href="#" class="article__hash__link">#дизайн</a>
+                        <a href="#" class="article__hash__link article__hash__link_mounth">Декарь 2023</a>
+                    </div>
+                    <img src="img/→.svg" alt="" class="article__svg">
+                </div>
+            </div>
+            <div class="article__item article3">
+                <img src="img/Cover - TOMAT Agency.png" alt="" class="article__img">
+                <h3 class="heading3 article__title">Копируй: как работает дизайн</h3>
+                <span class="article__text">Перевод статьи Мэтью Штрома о том, насколько важно копирование в дизайне. Мэтью приводит интересные примеры, доказывающие этот факт: терракотовых солдат, Ван Гога, игры 90-х и так далее.</span>
+                <div class="article__lincks">
+                    <div class="article__hash">
+                        <a href="#" class="article__hash__link">#дизайн</a>
+                        <a href="#" class="article__hash__link">#дизайн</a>
+                        <a href="#" class="article__hash__link">#дизайн</a>
+                        <a href="#" class="article__hash__link article__hash__link_mounth">Декарь 2023</a>
+                    </div>
+                    <img src="img/→.svg" alt="" class="article__svg">
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Project-->
+        <div id="project" class="wrapper__project project">
+            <h2 class="project__hiading hiading2">Проекты</h2>
+            <div class="project__content">
+
+                <div class="project__colum project__colum1">
+
+                    <div onclick="tomatClick()" class="project__item item1">
+                        <img src="img/item1.png" alt="item1" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">TOMAT Agency</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Айдентика</a>
+                                    <a class="project__text">Брендинг</a>
+                                    <a class="project__text project__text__year">2022</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                    <div onclick="comunalkaClick()" class="project__item item4">
+                        <img src="img/item4.png" alt="item4" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">Коммуналка 2022</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Айдентика</a>
+                                    <a class="project__text">Брендинг</a>
+                                    <a class="project__text project__text__year">2022</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                    <div onclick="makbushClick()" class="project__item item7">
+                        <img src="img/item7.png" alt="item7" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">MAKBUSH Coffee</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Брендинг</a>
+                                    <a class="project__text">Айдентика</a>
+                                    <a class="project__text">Моушн</a>
+                                    <a class="project__text project__text__year">2023</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                    <div onclick="dodoClick()" class="project__item item10">
+                        <img src="img/item10.png" alt="item10" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">DODO DESIGN JOURNEY</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Графика</a>
+                                    <a class="project__text">Айдентика</a>
+                                    <a class="project__text project__text__year">2022</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project__colum project__colum2">
+                    
+                    <div onclick="poster2Click()" class="project__item item2">
+                        <img src="img/item2.png" alt="item2" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">Ежедневные постеры // Сезон 2</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Графика</a>
+                                    <a class="project__text project__text__year">2023</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                    <div onclick="poster1Click()" class="project__item item5">
+                        <img src="img/item5.png" alt="item5" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">Ежедневные постеры // Сезон 1</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Графика</a>
+                                    <a class="project__text project__text__year">2023</a>
+                                </div>  
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                    <div class="item8 item__main">
+                        <img src="img/item_main.svg" alt="item_main" class="project__img_main">
+                        <div class="project__info__main">
+                            <h3 class="project__item__hiading hiading3">Будем на связи
+                                в интернетах</h3>
+                                <div class="project__lincks">
+                                <a class="project__text">Instagram</a>
+                                <a class="project__text">VK</a>
+                                <a class="project__text">Telegram</a>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div onclick="fizraClick()" class="project__item item11">
+                        <img src="img/item11.png" alt="item11" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">FIZКУЛЬТУРА</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Айдентика</a>
+                                    <a class="project__text project__text__year">2022</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project__colum project__colum3">
+
+                    <div onclick="showreelClick()" class="project__item item3">
+                        <img src="img/item3.png" alt="item3" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">TOMAT SHOWREEL</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Моушн</a>
+                                    <a class="project__text project__text__year">2022</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                    <div onclick="disignComunalka()" class="project__item item6">
+                        <img src="img/item6.png" alt="item6" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">Дизайн Коммуналка 2023</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Айдентика</a>
+                                    <a class="project__text">Моушн</a>
+                                    <a class="project__text project__text__year">2023</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+
+                    <div onclick="tomatWebClick()" class="project__item item9">
+                        <img src="img/item9.png" alt="item9" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">TOMAT Website</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Арт дирекшн</a>
+                                    <a class="project__text">Веб</a>
+                                    <a class="project__text project__text__year">2022</a>
+                                </div>
+                            </div>
+                            <img src="img/Arrow.svg" alt="arrow" class="project__svg">
+                        </div>
+                    </div>
+                    <div onclick="siteClick()" class="project__item item12">
+                        <img src="img/item12.png" alt="item12" class="project__img">
+                        <div class="project__info">
+                            <div class="project__info__text">
+                                <h3 class="project__item__hiading hiading3">Сайт Портфолио 2021</h3>
+                                <div class="project__lincks">
+                                    <a class="project__text">Веб</a>
+                                    <a class="project__text project__text__year">2021</a>
+                                </div>  
+                            </div>
+                            <img src="img/Arrow.svg" alt="" class="project__svg">
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        
+        <!--description-->
+
+        <div class="wrapper__description description">
+            <div class="descriptin__about">
+                <h2 class="about__hiading hiadin2">Сделаем этот мир ярче</h2>
+                <span class="about__text">Открыт к новым проектам. Вы можете написать мне на почту,<br class="about__br"> или в ВК, или в ТГ... Как вам будет удобнее!</span>
+            </div>
+            <div class="description__mail">
+                <a href="ilyaabramov29@gmail.com" class="mail__text">ilyaabramov29<br>@gmail.com</a>
+         
+            </div>
+        </div>
+
+
+        <!--Footer-->
+
+        <footer id="footer" class="wrapper__footer footer">
+            <div class="footer__up" onclick="up()">
+                <img class="up__img" src="img/Arrow — Right-Up.svg" alt="">
+                <span class="up__text">Back to top</span>
+            </div>
+            <div class="footer__autor">
+                Designed by Abramov Design <br> Developed by <a href="https://t.me/Kot_v_cmetane" class="autor__link">Dmitrii Nesterov</a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

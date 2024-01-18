@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tomat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+<!--menu-->
+<div id="menu" class="header__menu">
+    <div onclick="closeMenu()" id="menu__close" class="menu__close">
+        <svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="#fef8ed">
+            <path d="M22.6066 21.3934C22.2161 21.0029 21.5829 21.0029 21.1924 21.3934C20.8019 21.7839 20.8019 22.4171 21.1924 22.8076L22.6066 21.3934ZM40.9914 42.6066C41.3819 42.9971 42.0151 42.9971 42.4056 42.6066C42.7961 42.2161 42.7961 41.5829 42.4056 41.1924L40.9914 42.6066ZM21.1924 41.1924C20.8019 41.5829 20.8019 42.2161 21.1924 42.6066C21.5829 42.9971 22.2161 42.9971 22.6066 42.6066L21.1924 41.1924ZM42.4056 22.8076C42.7961 22.4171 42.7961 21.7839 42.4056 21.3934C42.0151 21.0029 41.3819 21.0029 40.9914 21.3934L42.4056 22.8076ZM21.1924 22.8076L40.9914 42.6066L42.4056 41.1924L22.6066 21.3934L21.1924 22.8076ZM22.6066 42.6066L42.4056 22.8076L40.9914 21.3934L21.1924 41.1924L22.6066 42.6066Z" fill="white"/>
+        </svg>
+    </div>
+    <div class="menu__top">
+        <img onclick="mainClick()" src="img/Frame_25.svg" alt="" class="menu__logo">
+        <ul class="menu__navigation__list menu__list">
+            <li class="menu__list__item">
+                <a href="#project" class="menu__list__link">Проекты</a>
+            </li>
+            <li class="menu__list__item">
+                <a href="https://t.me/tehnichka_design" target="_blank" class="menu__list__link">Техничка</a>
+            </li>
+            <li class="menu__list__item">
+                <a href="#footer" class="menu__list__link">Обо мне </a>
+            </li>
+            <li class="menu__list__item">
+                <a href="#article" class="menu__list__link">Статьи и заметки</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu__bottom">
+        <a href="https://t.me/abramovdesiqn" target="_blank"  class="menu__lsit__button">Обсудить проект</a>
+        <span class="menu__text">Сайт-портфолио,Ильи Абрамова,<br>коммуникационного дизайнера</span>
+    </div>
+</div>
+
+
+
+<div id="wrapper" class="wrapper">
+    <header class="wrapper__heaeder header">
+        <div class="header__main">
+            <img onclick="mainClick()"  class="header__logo1920" src="img/Logo.svg" alt="logo">
+            <img onclick="mainClick()" class="header__logo640" src="img/Logo640.svg" alt="logo">
+            <nav class="header__navigation naviation">
+                <ul class="navigation__list list">
+                    <li class="list__item">
+                        <a href="#project" class="list__link">Проекты</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="https://t.me/tehnichka_design" target="_blank" class="list__link">Техничка</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#footer" class="list__link">Обо мне</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#article" class="list__link">Статьи и заметки</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="https://t.me/abramovdesiqn" target="_blank" class="list__link list__button">Обсудить проект</a>
+                    </li>
+                </ul>
+            </nav>
+            <button id="menu__button" onclick="show()" class="menu__button">Меню</button>
+        </div>
+    </header>
+
+    <!--info-->
+    <div class="wrapper__info info">
+        <div class="info__title tomat__title">
+            <h1 class="title__main hiadin1">FIZKULTURA</h1>
+            <div class="title__decription">
+                <span class="title__decription__text">Айдентика</span>
+            </div>
+        </div>
+        <div class="info__main">
+            <div class="info__main__first first first__notsecond">
+                <div class="firts__year">
+                    <span class="first__year__title">Год</span>
+                    <span class="first__year__description">2022</span>
+                </div>
+                <div class="firts__client">
+                    <span class="first__client__title">Клиент</span>
+                    <span class="first__client__description">FIZKULTURA</span>
+                </div>
+            </div>
+            <div class="info__main__third ">
+                <span class="info__main__description">Фитнес-клубы FiZКУЛЬТУРА — место, где люди разных возрастов чувствуют себя на высоте, совмещая тренировки в зале, групповые направления и отдых в Спа-зоне.
+
+                    Основной задачей было освежить существующий стиль, не сильно отходя от его основ. Диверсифицироваться на рынке, а также показать характер бренда — современный, живой и счастливый.
+                    
+                    Результатом стал новый логотип, палитра и фирменные паттерны, и гайдлайн по новому стилю.</span>
+            </div>
+        </div>
+    </div>
+    <span class="info__main__description1400 ">Фитнес-клубы FiZКУЛЬТУРА — место, где люди разных возрастов чувствуют себя на высоте, совмещая тренировки в зале, групповые направления и отдых в Спа-зоне.
+
+        Основной задачей было освежить существующий стиль, не сильно отходя от его основ. Диверсифицироваться на рынке, а также показать характер бренда — современный, живой и счастливый.
+        
+        Результатом стал новый логотип, палитра и фирменные паттерны, и гайдлайн по новому стилю.</span>
+
+    <!--main-->
+    <div class="wrapper__main">
+        <img src="/img/fizkultura/fizra1.png" alt="" class="main__img">
+        <img src="/img/fizkultura/fizra2.png" alt="" class="main__img">
+        <img src="/img/fizkultura/fizra3.png" alt="" class="main__img">
+        <img src="/img/fizkultura/fizra4.png" alt="" class="main__img">
+        <img src="/img/fizkultura/fizra5.png" alt="" class="main__img">
+        <img src="/img/fizkultura/fizra6.png" alt="" class="main__img">
+        <img src="/img/fizkultura/fizra7.png" alt="" class="main__img">
+        <img src="/img/fizkultura/fizra8.png" alt="" class="main__img">
+    </div>
+    <!--description-->
+
+    <div class="wrapper__description description">
+        <div class="descriptin__about">
+            <h2 class="about__hiading hiadin2">Сделаем этот мир ярче</h2>
+            <span class="about__text">Открыт к новым проектам. Вы можете написать мне на почту,<br class="about__br"> или в ВК, или в ТГ... Как вам будет удобнее!</span>
+        </div>
+        <div class="description__mail">
+            <a href="ilyaabramov29@gmail.com" class="mail__text">ilyaabramov29<br>@gmail.com</a>
+     
+        </div>
+    </div>
+
+
+    <!--Footer-->
+
+    <footer id="footer" class="wrapper__footer footer">
+        <div class="footer__up" onclick="up()">
+            <img class="up__img" src="img/Arrow — Right-Up.svg" alt="">
+            <span class="up__text">Back to top</span>
+        </div>
+        <div class="footer__autor">
+            Designed by Abramov Design <br> Developed by <a href="https://t.me/Kot_v_cmetane" class="autor__link">Dmitrii Nesterov</a>
+        </div>
+    </footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
