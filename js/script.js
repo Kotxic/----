@@ -70,3 +70,9 @@ function poster2Click(){
 function poster1Click(){
 	window.location.href="poster1.html"
 }
+function disignClick(){
+	window.location.href="WhatIsDisign.html"
+}
+function copyDisignClick(){
+	window.location.href="CopyDisign.html"
+}

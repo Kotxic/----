@@ -1,0 +1,119 @@
+.wrapper__disign{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.disign__img{
+    width: 100%;
+    max-height: 420px;
+}
+.disign__title{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b9b6b1;
+}
+.disign__hiading{
+    margin-top: 10px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 48px;
+    line-height: calc((58/48)*100%);
+    font-weight: 400;
+}
+.disign__title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.disign__info{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.disign__info__text:not(:last-child){
+    padding-right: 20px;
+    border-right: 1px solid #b9b6b1;
+}
+.disign__main{
+    width: 43%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.disign__main__title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.disign__text{
+    font-size: 18px;
+    line-height: calc((26/18)*100%);
+    color: #161515;
+}
+.disign__main__info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.disign__text__underline{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #b9b6b1;
+}
+.disign__main__sources{
+    display: flex;
+    flex-direction: column;
+    
+}
+.subscribe{
+    font-size: 38px;
+    line-height: calc((46/38)*100%);
+    color: #000;
+}
+
+@media (max-width:1150px) {
+    .wrapper__disign{
+        align-items: start;
+    }
+    .disign__title{
+        width: 100%;
+    }
+    .disign__main{
+        width: 100%;
+    }
+    .disign__title{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .disign__hiading{
+        font-size: 32px;
+    }
+    .title__text{
+        width: 30%;
+    }
+}
+@media (max-width:800px) {
+    .title__text{
+        width: 40%;
+    }
+}
+@media (max-width:750px) {
+    .disign__title{
+        flex-direction: column;
+        align-items: start;
+    }
+    .title__text{
+        width: 100%;
+    }
+    .disign__text{
+        font-size: 16px;
+    }
+    .disign__info__text{
+        font-size: 14px;
+    }
+}
